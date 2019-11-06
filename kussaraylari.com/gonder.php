@@ -91,10 +91,10 @@ if(isset($_POST['iletisimform']))
 			$mail = new PHPMailer();
     
 			$mail->IsSMTP();                                   // send via SMTP
-			$mail->Host     = "mail.kussaraylari.com"; // SMTP servers
+			$mail->Host     = "mail.xxxx.com"; // SMTP servers
 			$mail->SMTPAuth = true;     // turn on SMTP authentication
 			$mail->Username = "info@kussaraylari.com";  // SMTP username
-			$mail->Password = "ZeynUp10"; // SMTP password
+			$mail->Password = "xxxx"; // SMTP password
 			$mail->Port     = 587; 
 			$mail->From     = $email; // smtp kullanýcý adýnýz ile ayný olmalý
 			$mail->Fromname = $ad;
