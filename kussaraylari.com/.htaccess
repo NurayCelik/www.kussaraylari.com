@@ -1,0 +1,36 @@
+RewriteEngine on
+
+
+
+RewriteCond %{HTTP_HOST} ^kussaraylari.com [NC]
+RewriteRule ^(.*)$ http://www.kussaraylari.com/$1 [L,R=301,NC]
+
+
+ErrorDocument 404 http://kussaraylari//404.php
+
+RewriteRule ^kussaraylari$ index.php [NC,L]
+RewriteRule ^hakkimizda$ hakkimizda.php [NC,L]
+RewriteRule ^modellerimiz$ saraylarimiz.php [NC,L]
+RewriteRule ^bize-ulasin$ iletisim.php [NC,L]
+RewriteRule ^blogyazilari$ blog.php [NC,L]
+RewriteRule ^sitemap.xml$ iletisim.php [NC,L]
+
+#Redirect /|form.php www.kussaraylari.com/index.php
+
+
+
+
+
+
+
+
+php_value session.gc_maxlifetime 600
+
+
+#<Files form.php> 
+#Order allow,deny
+#Deny from all
+#</Files>
+
+
+

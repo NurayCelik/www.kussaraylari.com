@@ -1,0 +1,1094 @@
+body
+{
+ 	background-color: #e3e3e4;
+ 	
+
+}
+
+*{
+	/*font-family: KelmscottRoman !important;*/
+	font-family: Verdana, Geneva, sans-serif !important;
+}
+.secimage
+{
+	background-image: url(../images/yeni.jpg);
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	margin-top: 30px;
+ 	margin-bottom: 40px !important;
+    background-size: contain;
+    padding-bottom: 11px;
+    padding-left: 0px;
+    
+}
+
+header
+{
+	background: #3d4042;
+	width: 100%;
+
+}
+.max990px
+{
+	max-width: 990px;
+	min-height: 87px;
+}
+
+.max1150px
+{
+	max-width: 1150px;
+	min-height: 87px;
+}
+
+.pad0
+{
+	padding: 0px;
+}
+
+.mar0
+{
+	margin: 0px;
+}
+.sifirlaicerik
+{
+	padding: 0px;
+	margin: 0px;
+}
+.sagahizala
+{
+	float: none;
+	padding-left: 90px;
+}
+
+.menucizgi
+{
+	border-top:2px solid #1e88e3;
+	border-bottom:2px solid #1e88e3;
+}
+
+.sagahizala a
+{
+	color: #fff !important;
+	padding-top: 30px !important;
+    padding-bottom: 37px !important;
+}
+.sagahizala a:hover
+{
+	background-color: #4e5355 !important;
+}	
+
+
+.nav_bg
+{
+	background-color: #3d4042;
+	border-color: #3d4042;
+}
+.nav_alttan0px
+{
+	margin-bottom: 0px;
+
+}
+.mobilheader
+{
+	min-height: 87px;
+}
+.slide
+{
+	border-bottom: 2px solid;
+	border-color:  #fff;
+}
+.imgslide 
+{
+	background-size: contain !important;
+	max-height: 350px;
+}
+.anaimg img
+{
+	height:20px;
+	width:20px;
+	margin-top: -5px;
+}
+.hakimg img
+{
+	height:22px;
+	width:20px;
+	margin-top:-7px; 
+	align-items: center;
+}
+.sarayimg img
+{
+	height:22px; 
+	width:20px; 
+	margin-top:-9px;
+	align-items: center;
+}
+.blogimg img
+{
+	 height:21px; 
+	 width:20px; 
+	 margin-top:-9px;
+	 align-items: center;"
+}
+.iletisimimg img
+{
+	font-size: 15px; 
+	color: #1e88e3;
+	height: 21px;
+	padding-bottom: 2px;
+
+}
+.whatsapp
+{
+	color: #fff;
+    float: right !important;
+    padding-top: 22px;
+    height: 87px;
+    width: 28% !important;
+    padding-left: 10px;
+    margin-top: 1px;
+    font-size: 12px;
+   /* border: 2px solid #81d65c;*/
+
+ 
+
+}
+
+.whatsapp a
+{
+	text-decoration: none;
+	font-size: 10px;
+}
+
+.whatsapp:hover
+{
+	background: #c0ebad;
+	color:#3d4042;
+	border: 2px solid #c0ebad;
+}
+.whatsapp a:hover
+{
+	background: #c0ebad !important;
+	text-decoration: none;
+	color:#3d4042 !important;
+}
+
+.whatsapp no
+{
+	font-size: 10px;
+	
+}
+
+.item img
+{
+	width: 100%;
+	height: auto;
+}
+
+.slide_icon_left
+{
+	left: 50%;
+    margin-left: -10px;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    color:#e6f9ff;
+    letter-spacing: 0.5px;
+}
+.slide_icon_right
+{
+	right: 50%;
+    margin-right: -10px;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    color:#e6f9ff;
+    letter-spacing: 0.5px;
+}
+
+.sectionstyle
+{
+	text-align: justify;
+	
+}
+
+.bilgibaslik
+{
+	color:#191919;
+	font-weight: bold;
+	margin-top: 50px;
+	padding-left: 0px;
+	text-shadow: 2px 2px #fff;
+	text-align: center;
+}
+
+.bilgibaslikaciklama
+{
+	color: #404040;
+	font-size: 18px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-indent: 15px;
+	font-weight: normal;
+	margin-right: 0px;
+}
+
+.sideborder
+{
+	border-right-color: #fff !important;
+	border-left-color: #fff !important;
+	border-bottom-color: #e3e3e4 !important;
+	border-top-color: #e3e3e4 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	margin-top: 62px;
+	margin-bottom: 20px;
+}
+.devami {
+    width: 25%;
+    height: 45px;
+    padding-top: 12px;
+    background-color: #565a5d;
+    text-align: center;
+    z-index: -1;
+    float: right;
+    border: 1px solid #1e88e3;
+    margin-top: -15px;
+    text-decoration: none;
+	border-radius: 5px;
+}
+.devami a
+{
+	text-decoration: none;
+}
+
+ .devami:hover
+ {
+ 	background-color:#1e88e3;
+ 	color: #fff;
+ 	border:1px solid #e8f3fc;
+	
+ }
+
+.bilgibaslik1
+{
+	color:#082844;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-left: 5px;
+	margin-right: 5px;	
+	padding-bottom: 30px;
+	border-right-color: #e3e3e4 !important;
+	border-left-color: #e3e3e4 !important;
+	border-bottom-color: #fff !important;
+	border-top-color: #e3e3e4 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+    text-align: left !important;	
+		
+}
+
+.bilgibaslik1 h4
+{
+	color:#082844;
+	font-weight: bold;
+	text-shadow: 1px 1px #fff;
+}
+
+.bilgibaslikaciklama1
+{
+	color:#404040;
+        
+}
+
+.anasayfa_dikey_hiza
+{
+	vertical-align:middle !important;
+	padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+	border-right-color: #e3e3e4 !important;
+	border-left-color: #e3e3e4 !important;
+	border-bottom-color: #fff !important;
+	border-top-color: #fff !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	
+	
+}
+
+.panelbackground
+{
+	background-color: #565a5d !important;
+}
+
+.panelrengi
+{
+	background-color: #f2f2f3 !important;
+	color:#082844 !important;
+	font-weight: bolder;
+	
+}
+.video_height
+{
+	height: 225px;
+}
+
+.anasayfa_blog_yazi
+{
+	background-color: white;
+    text-align: left !important;
+}
+.anasayfa_blog_yazi a
+{
+	color: #0b365b;
+	text-shadow: 1px 1px #fff;
+    background-color: white;
+    text-align: left !important;
+}
+
+.anasayfa_blog_yazi a:hover
+{
+	color: #1e88e3;
+}
+
+
+.bilgiblok1
+{
+	background:url(../images/bird10.jpeg) center top no-repeat;
+	height: 134px;
+	width: 100%;
+	background-size: contain;
+} 
+
+.bilgiblok2
+{
+	background:url(../images/bird34.jpg) center top no-repeat;
+	height: 134px;
+	width: 100%;
+	background-size: contain;
+
+}	
+.bilgiblok3
+{
+	background:url(../images/8bird0.jpg) center top no-repeat;
+	height: 134px;
+	width: 100%;
+	background-size: contain;
+}
+.blokstil
+{
+	text-align: center;
+	margin-bottom: 59px;
+
+}
+
+.blokstil span
+{
+	color:#082844;
+	font-weight: bold;
+	
+}
+.blokstil p
+{
+	color: #404040;
+}
+
+.blokstilbuton
+{
+	
+	font-size:12px; 
+	text-align:center;  
+	padding-top:3px; 
+	padding-bottom:5px !important;
+	border-color:#3a7a1f; 
+	background-color:#306619; 
+	color: #fff; 
+	opacity: 0.8;
+	border-radius: 15px !important; 
+	-webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -o-border-radius:15px;
+    -ms-border-radius:15px;
+}
+
+.blokstilbuton:hover
+{
+	background-color: #dff5d6;
+	border-color: #dff5d6;
+	color:#082844;
+	font-weight: bolder;
+}
+
+.blokstilbuton i
+{
+	
+	display: inline-block;
+	color:#fff;
+	
+}
+.blokstilbuton i:hover
+{
+	
+	color:#082844;
+	
+
+}
+.footer_bg
+{
+	background-color: #3d4042;
+	border-color: #3d4042;
+	border-top: 5px solid #666872 ;
+	width: 100%;
+	min-height: 50px;
+	padding-bottom: 20px;
+	
+}
+
+.altblokstil
+{
+	padding-top: 20px;
+
+}
+
+.altblokstil b
+{
+	color: #fff;
+	font-weight: bold;
+}
+.altblokstil ul
+{
+	padding: 0px;
+	margin: 0px;
+	padding-top: 10px;
+}
+
+.altblokstil li
+{
+	list-style: none;
+	padding: 4px 0px 4px 0px;
+}
+
+.altblokstil a
+{
+	color:#fff;
+	text-decoration: none;
+}
+.altblokstil a:hover
+{
+	color:#1e88e3;
+}
+
+.footerimg
+{
+	height: 200px;
+	width: 100%;
+	margin-top: 16px;
+	margin-left:0px;
+
+}
+.altblokstil2
+{
+	color: #fff;
+	padding-top: 35px;
+}
+
+.altfaceblok
+{
+	color: #fff;
+	padding-top: 20px;
+}
+.altfaceblok img
+{
+	width: 20px;
+	height: 20px;
+}
+svg
+{
+	margin-bottom: -6px;
+	margin-right: 3px;
+}
+.altfaceblok a
+{
+	color: #fff;
+	text-decoration: none;
+}
+.altfaceblok a:hover
+{
+	color: #1e88e3;
+}
+
+.altblokstil3
+{
+	color: #fff;
+	padding-top: 20px;
+	padding-left: 10px;
+
+}
+.altblokstil3 span
+{
+	padding-top: 15px;
+	margin-right: 10px;
+
+}
+.altblokstil3 b
+{
+	margin-left: 5px;
+	color:#60aaeb;
+}
+.adrescizgi
+{
+	border-left:2px solid #1e88e3;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	margin-top: 10px;
+	color: #fff;
+	font-size: 12px;
+}
+.adrescizgi span
+{
+	display: inline-block;
+
+}
+.footer_adres img
+{
+	 
+}
+.footer_tel
+{
+	
+}
+
+.yazar
+{
+	text-align: center;
+	color:#fff;
+	margin-bottom: 37px;
+    margin-top: 50px;
+    font-size: 15px;
+    background-color: #313335;
+    min-height: 60px;
+    width:100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid #494d50;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -o-border-radius:25px;
+    -ms-border-radius:25px;
+ }
+
+.yazar a span
+{
+	color:#d64161; 
+	font-size: 20px; 
+	font-family: harlow golid italic;
+}
+.altmenucizgi1
+{
+	background-color: #3d4042;
+	height: 3px;
+	width: 100%;
+}
+.altmenucizgi
+{
+	background-color: #1e88e5;
+	height: 2px;
+	width: 100%;
+}
+
+/*İLETİŞİM SAYFASI CSS KODLARI*/
+
+.ilet_sol_blok_baslik
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+.ilet_sol_blok_baslik b
+{
+	color:#082844;
+	padding-top:20px !important;
+	padding-bottom: 10px;
+	text-shadow: 1px 1px #fff
+	
+
+}
+.ilet_sol_blok_baslik span
+{
+	color: #082844;
+	display: block;
+}
+
+.ilet_sol_adresBlok
+{
+	padding-top: 10px;
+}
+
+.ilet_sol_adresBlok div
+{
+	color:#082844;
+	font-weight: bold;
+}
+
+
+.ilet_sol_adresBlok span
+{
+	color:#082844;
+	font-weight: normal;
+}
+.ilet_sag_blok_baslik 
+{
+	color: #082844;
+	text-shadow: 1px 1px #fff
+}
+
+.ilet_sag
+{
+	padding-top: 30px;
+}
+
+.ilet_sag div
+{
+	color: #082844;
+}
+
+.ilet_sag_blok_baslik span
+{
+	color:#082844;
+	font-weight: normal;
+	display: block;
+	margin-bottom: 17px;
+}
+.formbuton
+{
+	font-size:12px; 
+	text-align:center;  
+	padding-top:4px; 
+	padding-bottom:5px !important;
+	border-color:#3a7a1f; 
+	background-color:#306619; 
+	color: #fff; 
+	opacity: 0.7;
+	border-radius: 10px !important; 
+	-webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    -ms-border-radius:10px;
+    float: right;
+}
+
+.formbuton:hover
+{
+	background-color: #c0ebad;
+	border-color: #c0ebad;
+	color:#404040;
+	font-weight: bolder;
+}
+
+.secimage1
+{
+	background-image: url(../images/yeni.jpg);
+ 	background-repeat: no-repeat;
+ 	background-position: left;
+ 	margin-top: 30px;
+ 	margin-bottom: 40px !important;
+    background-size: contain;
+    padding-bottom: 30px;
+}
+
+/*hakkimizda sayfası için */
+
+.yenibreadcrumb
+{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 10px 15px;
+	list-style: none;
+	background-color: #e3e3e4;
+	border-radius: none !important;
+	border-style: solid;
+	border-top-color: #e3e3e4;
+	border-bottom-color: #e3e3e4;
+	border-right-color: #e3e3e4;
+	border-left-color: #fff;
+	border-width: 1px;
+	color:#082844;;
+}
+.yenibreadcrumb a
+{
+	color:#0b365b;	
+}
+
+.yenibreadcrumb a:hover
+{
+	color:#1e88e5;	
+}
+ .hakkimizda h2
+ {
+	color:#191919;
+	padding-left: 0px;
+	text-shadow: 2px 2px #fff;
+	font-weight: bold;
+ }
+
+.hakkimdasecimage
+{
+	background-image: url(../images/yeni.jpg);
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size: contain;
+ 	margin-top: 30px;
+ 	margin-right: -10px;
+ 	margin-bottom: 30px !important;
+ 	margin-left: 10px;
+ 	padding-bottom: 40px;
+    background-color: #e3e3e4;
+}
+
+.hakborder
+{
+	border-style: solid;
+	border-left-color: #fff !important;
+	border-color: #e3e3e4;
+	border-width: 1px; 
+	padding-left: 20px;
+
+}
+.hakborder p
+{
+	letter-spacing: 2.5em;
+	line-height: 1.5em
+
+}
+
+.hakborder h3
+{
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+
+.hakkimizda p
+{
+	color:#404040;
+	text-align: justify;
+	line-height: 1.5em;
+	font-weight: 500;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+
+}
+.hakkimizda p::first-letter {
+    font-size: 150%;
+    font-weight: bolder;
+}
+.hakimage img
+{
+	float:left;
+	margin-right: 15px;
+}
+
+
+/*blog sayfasi için */
+
+.bilgibaslikblog
+{
+	
+	text-shadow: 1px 1px #fff;
+	
+}
+.blog_md_4
+{
+	margin-top: 100px;
+	background-color: Steel !important;
+	
+}
+.blog_md_4 a
+{
+	color:#0b365b;
+}
+.blog_md_4son
+{
+	margin-top: 28px;
+	background-color: Steel !important;
+	
+}
+.blog_md_4son a
+{
+	color:#0b365b;
+}
+ .blogum h2
+ {
+ 	color:#191919;
+	padding-left: 0px;
+	text-shadow: 2px 2px #fff;
+	font-weight: bolder;
+ }
+
+ .blogsecimage
+ {
+ 	background-image: url(../images/yeni.jpg);
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size: contain;
+ 	margin-top: 30px;
+ 	margin-right: -10px;
+ 	margin-bottom: 30px !important;
+ 	margin-left: 10px;
+ 	padding-bottom: 40px;
+    background-color: #e3e3e4;
+ }
+ .blogsecimage1
+ {
+ 	background-image: url(../images/yeni.jpg);
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size: contain;
+ 	margin-top: 30px;
+ 	margin-right: -10px;
+ 	margin-bottom: 2px !important;
+ 	margin-left: 10px;
+ 	padding-bottom: 10px;
+    background-color: #e3e3e4;
+ }
+ .blogborder
+{
+	border-style: solid;
+	border-left-color: #fff !important;
+	border-color: #e3e3e4;
+	border-width: 1px; 
+	padding-left: 20px;
+
+}
+
+.blogborder h3
+{
+	padding-left: 15px;
+	margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.blogum p
+{
+	color:#262626;
+	text-align: justify;
+	line-height: 1.5em;
+	font-weight: 500;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+
+}
+.blogum p::first-letter 
+{
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+.whatsapp
+{
+	float:left;
+	width: 30%;
+    margin-right: 56px;
+}
+
+}
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.sagahizala
+{
+	margin-right: 30px;
+}
+
+.whatsapp
+{
+	float: right !important;
+	margin: 0px;
+	width:39% !important;
+}
+
+.sagahizala a:hover
+{
+	background-color: #3d4042 !important;
+}
+.whatsapp > a:hover
+{
+	background-color: #c0ebad !important;
+}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.sagahizala
+{
+	float: left !important;
+	width: 109%;
+	margin-top: -86px;
+	margin-right: -8px;
+	margin-left: 10px !important;
+}
+
+.sagahizala a
+{
+	padding: 10px 13px !important;
+	padding-top: 30px !important;
+    padding-bottom: 37px !important;
+}
+
+.whatsapp
+{
+	float:left !important;
+	width: 50% !important;
+}
+.footer_tel
+{
+	width:110%;
+}
+	
+}
+
+@media (max-width: 991px) 
+{
+	.ilet_usttenayrac
+	{
+		border-top: 10px solid #000;
+		padding-top: 11px;
+	}
+
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+.sagahizala
+{
+	float: left !important;
+	width: 182%;
+    margin-left: -120px;
+}
+
+.sagahizala a
+{
+	padding-top: 7px !important;
+	padding-bottom: 7px !important;
+}
+
+.mobilheader
+{
+	min-height: 87px;;
+}
+.yazar
+{
+	max-height: 150px;
+}
+.altblokstil2
+{
+	clear:left;
+}
+.whatsapp
+{
+	float:left;
+	width: 35%;
+    margin-right: 460px;
+	display: block;
+}
+.whatsapp a
+{
+	padding-left: 10px;
+}
+
+.slide_icon_left
+{
+    margin-left: -10px;
+	width: 30px;
+	height: 30px;
+	margin-top: -10px;
+	font-size: 15px;
+}
+.slide_icon_right
+{
+	margin-right: -5px;
+	width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 15px;
+}
+}
+@media (max-width: 700px) {
+    .hakkimizda, .blog {   
+        flex-direction: column;
+    }
+    
+
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+.devami
+{
+	height: 50px;
+	padding-top: 5px;
+}
+.whatsapp
+{
+	float: left;
+	width: 50%;
+	height: auto;
+    margin-right: 180px;
+	display: block;
+	padding-left: 10px;
+}
+
+}
+
+.pagination>.secili>a,.pagination>.active>a:hover{
+	background-color:#62676a !important;
+	border-color:#62676a !important;
+	color:#fff !important;
+}
+.pagination>li>a{
+	color:#62676a !important;
+}
+.arsiv_duzen
+{
+	border:1px solid #62676a!important;
+	border-radius:5px;
+}
+.arsiv_duzen>.arsiv_baslik
+{
+	background-color:#e3e3e4!important;
+	#b6cee2 !important
+}
+.arsiv_duzen>.arsiv1
+{
+	background-color:#62676a!important; 
+	color:#fff;
+	text-align: left;
+	border:1px solid #62676a!important;
+}
+.arsiv_duzen>.arsiv1:hover
+{
+	background-color:#62676a!important; 
+	color:#fff;
+	text-align: left;
+	border:1px solid #62676a!important;
+}

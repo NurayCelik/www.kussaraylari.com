@@ -1,0 +1,8 @@
+
+
+php_value session.gc_maxlifetime 600
+
+AuthName "Şifre Koruması"
+AuthType Basic
+AuthUserFile C:\wamp64\www\kussaraylari.com\admin\.htpasswd
+require valid-user

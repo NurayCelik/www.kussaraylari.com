@@ -1,0 +1,18 @@
+User-Agent: *
+Disallow:
+ 
+User-Agent: Googlebot
+Disallow: /restricted/
+ 
+User-Agent: BadBot
+Disallow: /disallow_access/
+
+Sitemap: http://www.kussaraylari.com/sitemap.xml
+
+<Html>
+<Head>
+<Title> ... </ title>
+<META NAME = "ROBOTS" CONTENT = "NOINDEX, NOFOLLOW">
+</ Head>
+
+<meta name = "robots" content = "noindex, takip et">

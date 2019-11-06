@@ -1,0 +1,474 @@
+   body{
+    
+        font-family: sans-serif;
+        
+    }
+
+    .tablo_ust
+    {
+        margin-top: 20px;
+        
+    }
+    .tablo_sol
+    {
+        float:none;
+        color: whitesmoke;
+        line-height: 15px;
+    }
+    .tablo_sol:hover
+    {
+        color: whitesmoke;
+    }
+
+    .boyut
+    {
+        background-color:#ac99ff;
+        height:100px; 
+        text-align:right;
+    }
+    .yonetim_paneli
+    {
+        padding-left:20px;
+        color:  darkslateblue;
+        text-shadow: 1px 1ps white;
+    }
+    #tablo
+    {
+        border:1px solid #3d3d96 ;
+        height:500px;
+        padding-top: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 20px;
+        background-color: #424284;
+        line-height: 4em; 
+    }
+    #tablo ul li
+    {
+        list-style-type:none;
+        padding-left: 14%;
+        line-height: 45px;
+        letter-spacing: 0.3px;
+    }
+    #tablo ul li:hover
+    {
+        background-color: dimgray;
+        width: 100%;
+        line-height: 45px;
+    }
+    #tablo a, #tablo a:hover{
+    font-size: 14px;
+
+    padding-left: 10%;
+   }
+   
+    #tablo h5{
+        color:White;
+        border-bottom:1px solid white;
+        padding-bottom: 5px;
+        font-weight: 100;
+        padding-left: 23px;
+        letter-spacing: 0.3px;
+    }
+    #tablo_orta
+    {
+        padding-top: 13px;x;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    .profil
+    {
+        width:100px; 
+        height:50px; 
+        text-align:right; 
+        display:inline-block;
+        list-style-type:none;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .profil a
+    {
+        text-align: center;
+        background-color:#f3edf2; 
+        width:80px; 
+        height:40px; 
+        display:inline-block;
+        list-style-type:none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+        color:  dimgray;
+        font-weight: bold;
+
+    }
+    @media (max-width: 991px){
+    .yonet
+    {
+        max-height: 1%;
+        float:left;
+        padding:0px;
+    }
+    .profil{
+        max-width: 50%;
+        margin-top:10px;
+        }
+    .boyut
+    {
+        max-height: 50%;
+    }
+    #tablo ul li a
+    {
+        font-size:14px;
+        font-weight: 100;
+        line-height: 3em;
+    }
+    #tablo ul
+    {
+        padding-left: 0px;
+    }
+    .tablo_makale ul li a
+    {
+        font-size:10px;
+    }
+    .tablo_makale
+    {
+        height: 770px !important;
+    }
+    .form_bicim
+    {
+        margin-bottom: 20px;
+    }
+
+    }
+    
+    @media (max-width: 705px) { 
+
+        .tablo_makale
+        {
+            width: 80%;
+            margin-bottom: 0px;
+        }
+        .makale_form
+        {
+            width: 100%;
+        }
+    }
+
+    
+    @media (max-width: 470px) { 
+        .profil{
+            margin-top: 25px;
+            max-height: 1%;
+        }
+
+        .yonet
+    {
+        max-height: 0%;
+        margin-bottom: 20px;
+        max-width: 10%;
+        font-size: 5px;
+        font-weight: 10;
+        padding-left: 2px;
+        margin-top:-12px;
+        display: inline-block;
+        
+    }
+    .profil .profil_boyut
+    {
+        font-size: 12px;
+        margin-top:-10px;
+        padding-bottom:25px;
+        
+    }
+    #tablo
+    {
+        width: 100%;
+        
+    }
+    #tablo ul li
+    {
+        padding-left: 5%;
+        
+    }
+
+    #tablo ul li a
+    {
+        font-size:12px;
+        font-weight: 50;
+    }
+    #tablo ul
+    {
+        padding-left: 0px;
+    }
+    .tablo_makale ul li a
+    {
+        font-size:10px;
+    }
+    .makale_form
+    {
+        width: 100%;
+    }
+
+    .tablo_makale
+    {
+        width: 80%;
+        max-height:400px !important;
+    }
+    }
+
+
+    /*Makale Sayfa Düzenlemeleri*/
+
+    .makale_form
+    {
+        max-width: 100%;
+    }
+    .tablo_makale
+    {
+        height: 660px !important;
+    }
+
+    .form_bicim
+    {
+        border:2px solid #3d3d96 ;
+    }
+    .table-bordered>tbody>tr>td
+    {
+        border:1px solid #3d3d96 !important;
+    }
+    .buton_guncelle
+    {
+        float: right;
+        color: #8080ff !important;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .btn_kayit
+    {
+        color: goldenrod;
+    }
+    .btn_duzen
+    {
+        /*color: darkolivegreen;*/
+        margin-right: 15px;
+        font-weight: bold;
+        font-size: 15px;
+        color: #46468e;
+    }
+    .btn_sil
+    {
+        color:#c24565;
+        font-weight: bold;
+        font-size: 14px;
+        width: 15%;
+        margin-right: -40px;
+    }
+    .btn_sil1
+    {
+        /*color: darkolivegreen;*/
+        margin-right: 15px;
+        font-weight: bold;
+        font-size: 15px;
+        color: #c24565;
+        margin-top: 10px;
+    }
+    .btn_sil2
+    {
+        color:#c24565;
+        font-weight: bold;
+        font-size: 15px;
+        color: #c24565;
+        margin-top: 0px;
+        margin-right: 20px;
+        float: right;
+        width: 14%;
+        height: 33px;
+    }
+    .buton_ekle
+    {
+        float: right;
+        color:rgb(106, 126, 73);
+        font-weight: 600;
+        font-size: 14px;
+        /*color: #6b6bb6;*/
+    }
+    .buton_exit
+    {
+        float: right;
+        color: #6b6bb6;
+    }
+    .yeni_labl
+    {
+        width: 120%;
+        text-align: left !important;
+        font-weight: bolder !important;
+        font-size: 14px;
+    }
+    .yeni_lab2
+    {
+        font-weight: 200;
+    }
+
+    .footer_duzen
+    {
+        text-align:center; 
+        background-color: #9999ff; 
+        height:60px; color:black; 
+        padding-top:20px;
+        font-size: 13px;
+    }
+    .footer_duzen:hover
+    {
+        background-color: #7171ff;
+    }
+    .footer_duzen a
+    {
+        color:whitesmoke;
+        font-size: 14px;
+        text-shadow: 1px 1px dimgray; 
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+    }
+    .login_orta
+    {
+    margin-left: 450px;
+    margin-top: 70px;
+    /* transform: translate(-24%,24%);
+        -webkit-transform: translate(-24%,-55%);
+        -moz-transform: translate(-24%,-55%);
+        -o-transform: translate(-24%,-55%);
+        -ms-transform: translate(-24%,-55%);*/
+    }
+
+    .box
+    {
+        
+        width: 400px;
+        padding: 40px;
+        background:gray;
+        box-sizing: border-box;
+        border-left: 10px;
+        border-radius: 10px;
+        border:1px solid darkgray;
+    }
+    .h2
+    {
+        font-size:25px;
+        font-weight: 200;
+    }
+    .box h2
+    {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color:#fff;
+    text-shadow: 1.5px 1px dimgray; 
+    }
+    .box .inputbox
+    {
+    position: relative;
+    }
+    .box .inputbox input
+    {
+        width: 100%;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        outline: none;
+    }
+    .box .inputbox label
+    {
+        top: 0;
+        left: 0;
+        padding: 10px 0;
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: 1px;
+        pointer-events: none;
+        text-shadow: 1.5px 1px dimgray; 
+    }
+    .box button
+    {
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #fff;
+        background: #7171ff;
+        opacity: .9;
+        padding: 10px 25px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 10px;
+        letter-spacing: 1.5px;
+        text-align: right;
+        font-size: 14px;
+        text-shadow: 1.5px 1px dimgray; 
+    }
+    .box button:hover
+    {
+        background:  #6a6aff;;
+        color: #ffffff;
+        text-shadow: 1.5px 1px dimgray; 
+        
+    }
+    .login_footer
+    {
+        width: 400px;
+        height: 65px;
+        margin-top: 70px;
+        margin-left: -40px;
+        padding-top:20px;
+        position: relative;
+        text-align:center; 
+        background-color:  #7777ff; 
+        font-size: 15px;
+        border-radius: 10px;
+        letter-spacing: 0.5px;
+    }
+    .login_footer:hover{
+        background-color: #4646ff;
+        
+    }
+    .login_footer a {
+        color:#fff;
+        text-shadow: 1.5px 1px dimgray; 
+        padding-top: 35px;
+        
+    }
+    .login_footer a:hover
+    {
+    color:#ffffff ;
+    text-decoration: none;
+    text-shadow: 1px 1px dimgray; 
+        
+    }
+.form_goruntulenmez
+{
+    display: none;
+}
+.yazi tr td: nth-child(2n){
+   font-size:16px !important;
+}
+
+.icerik_alan
+{
+    width: 100%;
+    height: 300px;
+}
+.genislik
+{
+    width: 20%;
+}
+
+.pagination>.secili>a,.pagination>.active>a:hover{
+	background-color: #7171b9!important;
+	border-color:  #7171b9!important;
+	color:#fff !important;
+}
+.pagination>li>a{
+    color: #48488e !important;
+    border:1px solid #cecee8;
+}
